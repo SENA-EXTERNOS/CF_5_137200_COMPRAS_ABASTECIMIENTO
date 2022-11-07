@@ -1,14 +1,19 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: myAnim 4s ease-in-out 0s infinite reverse forwards
     position: absolute
-    top: 40%
-    right: 50%
+    top: 52%
+    right: 11%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: myAnim 5s ease-in-out 0s infinite reverse forwards
     position: absolute
-    top: 51%
-    right: 30%
+    top: 79%
+    right: 40%
+  &-3
+    animation: myAnim 6s ease-in-out 0s infinite reverse forwards
+    position: absolute
+    top: 57%
+    right: 65%
 
 
 @keyframes float1
@@ -17,3 +22,88 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes myAnim 
+	0%,
+	50%,
+	100% 
+		opacity: 1
+	
+	25%,
+	75% 
+		opacity: 0
+
+//estilos adicionales
+
+.cajonAmarillo
+  position: relative
+  &:before
+    content: ''
+    display: block
+    width: 25px
+    height: 10px
+    position: absolute
+    top: 0
+    left: 0
+
+  &.color-primario
+    background-color: #FFF6DB
+    &:before
+      background-color: #FDB74D
+  &.color-secundario
+    background-color: lighten($color-secundario, 20%)
+    &:before
+      background-color: $color-secundario
+  &.color-acento-contenido
+    background-color: lighten($color-acento-contenido, 30%)
+    &:before
+      background-color: $color-acento-contenido
+  &.color-acento-botones
+    background-color: lighten($color-acento-botones, 35%)
+    &:before
+      background-color: $color-acento-botones
+
+.bgr-tarjeta-tema1:before
+    background: #FFF59D
+    
+.bgr-tarjeta-tema1
+    background: #FFFDEB
+
+.bgr-infografia-tema1
+    background: #FECA2E
+
+.banner1-tema-1
+  background-image: url("../assets/curso/temas/tema1/bgr1.png") !important
+  background-size: 100% 100%
+
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #F6F6F6
+
+.acordion__accion__btn--a
+  background-color: $color-acento-botones !important
+
+.acordion__activo
+  background-color: #FFFCDD !important
+
+.tarjeta--boton 
+    background-color: $color-acento-contenido
+
+.bloque-texto-g__img 
+    left: 50%
+
+.bloque-texto-g__texto 
+    right: 40%
+
+.banner1-tema-2
+  background-image: url("../assets/curso/temas/tema2/bgr1.png") !important
+  background-size: 100% 100%
+
+.lista-ul--color li > i:first-of-type 
+    color: #FF6B00
+
+.fa-minus:before 
+    color: white
+
+.fa-plus:before 
+    color: white
