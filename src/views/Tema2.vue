@@ -18,10 +18,10 @@
 
 
     separador
-    #t_1_1
+    #t_2_1
 
     .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.1 Tipos
+      h2 2.1 Tipos
 
     .row.justify-content-around.align-items-center(data-aos="flip-down")
 
@@ -82,10 +82,10 @@
 
 
     separador
-    #t_1_2
+    #t_2_2
 
     .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.2 Características
+      h2 2.2 Características
 
     .row.justify-content-center.align-items-center.mb-5.mt-5           
       .col-lg-12(data-aos="fade-left")     

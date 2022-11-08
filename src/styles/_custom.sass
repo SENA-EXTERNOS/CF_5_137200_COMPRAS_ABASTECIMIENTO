@@ -76,6 +76,15 @@
   background-image: url("../assets/curso/temas/tema1/bgr1.png") !important
   background-size: 100% 100%
 
+@media (max-width:500px)
+  .banner1-tema-1
+    background-image: url("../assets/curso/temas/tema1/bgr1.png") !important
+    background-size: auto
+
+.banner2-tema-1
+  background-image: url("../assets/curso/temas/tema1/bgr2.png") !important
+  background-size: 100% 100%
+
 ///// Custom acordeon A tipo A -------------------------------------- 
 .tarjeta.acordeonA
   background-color: #F6F6F6
@@ -92,8 +101,9 @@
 .bloque-texto-g__img 
     left: 50%
 
-.bloque-texto-g__texto 
-    right: 40%
+@media (max-width: 500px)
+  .bloque-texto-g__img
+    left: 0%;
 
 .banner1-tema-2
   background-image: url("../assets/curso/temas/tema2/bgr1.png") !important
@@ -107,3 +117,24 @@
 
 .fa-plus:before 
     color: white
+
+.img-infografica__item__numero, .img-infografica-b__item__numero 
+    left: 70%
+
+.img-infografica__item__dot, .img-infografica-b__item__dot 
+    width: 150%
+    padding-top: 150%
+
+.bloque-texto-g__texto 
+    right: 30%
+    width: 70%
+
+@media (max-width: 500px)
+  .bloque-texto-g__texto 
+    right: 10%
+    width: 80%
+
+.img-tema1-width
+  margin-left: 20%
+  width: 60%
+    

@@ -33,8 +33,8 @@
       p La clasificación de proveedores comprende aspectos fundamentales al momento de llevar a cabo el proceso de selección, para este deben analizarse cada una de las posibles empresas vendedoras, con el fin de tener un menor margen de error en la elección:
 
     .row
-      .col-lg-1
-      .col-lg-10
+      .col-lg-2
+      .col-lg-8.banner2-tema-1
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
@@ -52,7 +52,7 @@
           .tarjeta.bgr-infografia-tema1.p-3(x="56%" y="73%" numero="4")
             p.text-center Son los valores asignados a los productos que el proveedor desea suministrar.
 
-          .tarjeta.bgr-infografia-tema1.p-3(x="31%" y="72%" numero="5")
+          .tarjeta.bgr-infografia-tema1.p-3(x="42%" y="73%" numero="5")
             p.text-center Es la capacidad que tiene el proveedor para adaptarse a diferentes circunstancias que puedan llegar a presentar en el proceso.
 
           .tarjeta.bgr-infografia-tema1.p-3(x="30%" y="58%" numero="6")
@@ -61,7 +61,7 @@
           .tarjeta.bgr-infografia-tema1.p-3(x="32%" y="40%" numero="7")
             p.text-center Es la atención y seguimiento que realiza el vendedor hacia el cliente, buscando obtener información sobre la experiencia en el proceso de compra y el producto en general. En caso de haber presentado inconvenientes, es necesario evidenciar cómo se soluciona (garantía).
           
-      .col-lg-1
+      .col-lg-2
     
     
     separador
@@ -113,7 +113,7 @@
     #t_1_3
 
     .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.3 Tipos
+      h2 1.3 Capacidad financiera
 
     .row.justify-content-around.align-items-center(data-aos="flip-down")
  
@@ -134,7 +134,7 @@
     #t_1_4
 
     .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.4 Tipos
+      h2 1.4 Tiempos de respuesta
 
     .row.justify-content-around.align-items-center(data-aos="flip-down")
 
@@ -152,7 +152,7 @@
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-acento-contenido.p-4
           .row.justify-content-center.mb-3
-            .col-7
+            .col-5
               figure
                 img(src='@/assets/curso/temas/tema1/img6.svg', alt='Texto que describa la imagen')
 
@@ -162,7 +162,7 @@
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-acento-contenido.p-4
           .row.justify-content-center.mb-3
-            .col-7
+            .col-5
               figure
                 img(src='@/assets/curso/temas/tema1/img7.svg', alt='Texto que describa la imagen')
 
@@ -172,7 +172,7 @@
       .col-sm-6.col-lg-4.mb-4.mb-sm-0
          .tarjeta--boton.color-acento-contenido.p-4
           .row.justify-content-center.mb-3
-            .col-7
+            .col-5
               figure
                 img(src='@/assets/curso/temas/tema1/img8.svg', alt='Texto que describa la imagen')
 
@@ -184,7 +184,7 @@
     #t_1_5
 
     .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.5 Tipos
+      h2 1.5 Mejores prácticas de manufactura
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
@@ -201,24 +201,24 @@
 
       p Para lograr llevar a cabo el proceso de buenas prácticas de manufactura, se deberán tener en cuenta ciertos elementos claves con el fin de lograr la actividad con total éxito. Estos se deben gestionar de manera coordinada, considerando  los parámetros establecidos.
 
-    .row
+    .row.mt-5
       .col-lg-2
-      .col-lg-8
+      .col-lg-8.banner2-tema-1
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img10.png', alt='Texto que describa la imagen').img-tema1-width
             
           .tarjeta.bgr-infografia-tema1.p-3(x="50%" y="1%" numero="1")
             p.text-center La empresa deberá comprometerse en la capacitación a sus empleados sobre las buenas prácticas de manufactura, ya que son ellos los encargados de ejecutar este tipo de métodos, haciendo que la empresa logre cumplir con las normativas y aumente su productividad y rendimiento. Además, esta certificación ayudará a posicionar la empresa, generando mayor confianza en sus clientes.
 
-          .tarjeta.bgr-infografia-tema1.p-3(x="99%" y="50%" numero="2")
+          .tarjeta.bgr-infografia-tema1.p-3(x="80%" y="50%" numero="2")
             p.text-center Cuando se aplican las buenas prácticas, los productos son sometidos a una serie de procedimientos donde se evaluará la calidad de los mismos. Esto dependerá de su correcta ejecución basándose en las directrices estipuladas por  la alta gerencia.
 
           .tarjeta.bgr-infografia-tema1.p-3(x="50%" y="99%" numero="3")
             p.text-center Cuando se hace referencia al sitio de trabajo, se trata de evidenciar la limpieza y sanidad de las estaciones de producción, donde se tienen en cuenta maquinarias, utensilios, materias primas, dotaciones, etcétera. Todos estos implementos deben estar limpios para evitar contaminaciones, y en determinados momentos, accidentes laborales.
 
-          .tarjeta.bgr-infografia-tema1.p-3(x="1%" y="50%" numero="4")
+          .tarjeta.bgr-infografia-tema1.p-3(x="20%" y="50%" numero="4")
             p.text-center Desde la alta gerencia se deben establecer los organigramas de procesos, los cuales deben ir bien estructurados y entendibles para que los colaboradores puedan ejecutar las actividades cometiendo los mínimos errores posibles. Esta estructuración deberá ser elaborada bajo los parámetros de las buenas prácticas.
           
       .col-lg-2
