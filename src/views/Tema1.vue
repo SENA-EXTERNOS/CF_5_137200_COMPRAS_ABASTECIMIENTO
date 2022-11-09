@@ -68,7 +68,7 @@
     #t_1_2
 
     .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 1.2 Tipos
+      h2 1.2 Métodos
 
     .row
       p Para realizar una clasificación de los proveedores, se deberán establecer métodos y parámetros que servirán de guía y filtro, buscando que dicha selección se logre ejecutar y finalizar con total éxito. Cada empresa establecerá y creará su método de acuerdo a los requerimientos que se tengan previstos, según sea su actividad comercial y los procesos que han sido planificados estratégicamente.
@@ -94,7 +94,7 @@
               .col-12
                 p Una vez se tengan identificados los posibles proveedores se procederá a instaurar los parámetros de selección, los cuales serán establecidos por la alta gerencia, teniendo en cuenta la planeación estratégica y los objetivos trazados. Dentro de ellos se observarán ciertos criterios como lo son la calidad, adaptabilidad, costos, tiempos de entrega, confiabilidad, opiniones y referencias que se tengan por parte de sus clientes.
 
-                p Pero, ¿cómo se puede acceder a estas valoraciones? En la actualidad las páginas web, redes sociales, foros y demás medios digitales permiten una interacción con los clientes, donde ellos podrán ser partícipes de diferentes actividades relacionadas con sus procesos, allí también las empresas tendrán la opción de establecer una sección, donde sus clientes podrán calificar sus productos o servicios según sus experiencias. De allí será donde las empresas podrán obtener este tipo de información o mediante evaluaciones que hayan realizado cada uno de sus proveedores por medios físicos, como lo son las encuestas.
+                p Pero, ¿cómo se puede acceder a estas valoraciones? En la actualidad las páginas #[i web], redes sociales, foros y demás medios digitales permiten una interacción con los clientes, donde ellos podrán ser partícipes de diferentes actividades relacionadas con sus procesos, allí también las empresas tendrán la opción de establecer una sección, donde sus clientes podrán calificar sus productos o servicios según sus experiencias. De allí será donde las empresas podrán obtener este tipo de información o mediante evaluaciones que hayan realizado cada uno de sus proveedores por medios físicos, como lo son las encuestas.
 
             .row(titulo="Realizar una preselección")
               .col-12
