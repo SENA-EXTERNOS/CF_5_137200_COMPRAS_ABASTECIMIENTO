@@ -88,7 +88,7 @@
               .col-12
                 p Una vez establecidos los recursos que deben adquirirse, se iniciará con la identificación de posibles proveedores. Para ello, es importante realizar un análisis, indagación y exploración por medio de diferentes fuentes o redes que lo permitan.
 
-                p Otra manera es investigar por medio de internet, ya que se considera una herramienta donde la mayoría de empresas muestran y ofrecen sus productos o servicios, empleando estrategias de anuncios, pautas e invirtiendo en marketing digital, permitiendo así llegar a posibles clientes. Por dicha razón, este recurso brinda una gran ayuda y facilita la búsqueda. 
+                p Otra manera es investigar por medio de internet, ya que se considera una herramienta donde la mayoría de empresas muestran y ofrecen sus productos o servicios, empleando estrategias de anuncios, pautas e invirtiendo en #[i marketing] digital, permitiendo así llegar a posibles clientes. Por dicha razón, este recurso brinda una gran ayuda y facilita la búsqueda. 
 
             .row(titulo="Instaurar parámetros de selección")
               .col-12
