@@ -21,14 +21,13 @@
           br
           br
           |Todo ello, favorecerá el desarrollo de competencias y habilidades para su vida laboral, demostrando capacidades para aportar significativamente al crecimiento de su empresa u organización, desempeñarse en el área logística y de almacenamiento, donde logrará que las negociaciones con proveedores y los productos adquiridos se puedan llevar de una forma estratégica y estructurada, permitiendo que el proceso tenga mejores resultados, lo cual se evidenciará con el producto final.
-    p.mb-5(data-aos='fade-right') En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
+    p.mb-5(data-aos='fade-right') #[b En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.]
 
     .row.justify-content-center.align-items-center.mb-5.mt-5           
       .col-lg-12(data-aos="fade-left")     
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)            
-                   
     
 </template>
 
