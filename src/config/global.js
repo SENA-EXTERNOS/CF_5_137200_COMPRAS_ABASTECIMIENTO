@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Técnicas de clasificación de proveedores',
     descripcionCurso:
-      'El componente formativo tiene como objetivo que el aprendiz adquiera conocimientos relacionados con las técnicas de clasificación de proveedores y los tipos que existen, para comprender sus características, los métodos para llevarlo a cabo, la importancia de la capacidad financiera en este proceso, los tiempos de respuesta y conocer sobre las buenas prácticas de manufactura. ',
+      'Este componente busca que el aprendiz adquiera conocimientos relacionados con las técnicas de clasificación de proveedores y los tipos que existen, para comprender sus características, los métodos para llevarlo a cabo, la importancia de la capacidad financiera en este proceso, los tiempos de respuesta y conocer sobre las buenas prácticas de manufactura. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -39,38 +39,6 @@ export default {
         numero: '1',
         titulo: 'Clasificación de proveedores',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Características',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Métodos',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Capacidad financiera',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Tiempos de respuesta',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Mejores prácticas de manufactura',
-            hash: 't_1_5',
-          },
-        ],
       },
 
       {
@@ -79,20 +47,6 @@ export default {
         numero: '2',
         titulo: 'Técnicas de clasificación de proveedores',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Tipos',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Características',
-            hash: 't_2_2',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -137,32 +91,48 @@ export default {
   },
   complementario: [
     {
-      tema:
-        'Evaluación y clasificación de proveedores: metodología y caso de estudio en una ensambladora de motocicletas',
+      tema: 'Clasificación de proveedores',
       referencia:
-        'Restrepo Suárez, R. (2016). <em>Evaluación y clasificación de proveedores: metodología y caso de estudio en una ensambladora de motocicletas </em>[Doctoral dissertation]. Universidad EAFIT.',
+        'Restrepo Suárez, R. (2016). Evaluación y clasificación de proveedores: metodología y caso de estudio en una ensambladora de motocicletas [Doctoral dissertation]. Universidad EAFIT.',
       tipo: 'PDF',
       link:
-        'https://repository.eafit.edu.co/bitstream/handle/10784/11456/Rodrigo_RestrepoSuarez_2016.pdf',
+        'https://repository.eafit.edu.co/bitstream/handle/10784/11456/Rodrigo_RestrepoSuarez_2016.pdf ',
     },
     {
-      tema: 'Selección de proveedores basada en análisis dimensional',
+      tema: 'Clasificación de proveedores',
       referencia:
-        'Alcaraz, J. L. G., Iniesta, A. A., & Macías, A. A. M. (2013). Selección de proveedores basada en análisis dimensional. <em>Contaduría y administración, 58</em>(3), 249-278.',
+        'Alcaraz, J. L. G., Iniesta, A. A., & Macías, A. A. M. (2013). Selección de proveedores basada en análisis dimensional. Contaduría y administración, 58(3), p. 249-278.',
       tipo: 'PDF',
       link:
-        'https://reader.elsevier.com/reader/sd/pii/S0186104213712294?token=5659839EAB8C64E492761C06A575A7A25410A78D376F6979BBA2A9F8C66DE2953586B345D0E557C5115970D4735924BF&originRegion=us-east-1&originCreation=20220831162135',
+        'https://reader.elsevier.com/reader/sd/pii/S0186104213712294?token=5659839EAB8C64E492761C06A575A7A25410A78D376F6979BBA2A9F8C66DE2953586B345D0E557C5115970D4735924BF&originRegion=us-east-1&originCreation=20220831162135 ',
     },
     {
-      tema:
-        'Aplicación de las técnicas multicriteriales en la evaluación y selección de proveedores',
+      tema: 'Técnicas de clasificación de proveedores',
       referencia:
-        'González, A. G., & Ríos, R. G. (2003). Aplicación de las técnicas multicriteriales en la evaluación y selección de proveedores. <em>Ingeniería Industrial, 24</em>(2), 2.',
+        'González, A. G., & Ríos, R. G. (2003). Aplicación de las técnicas multicriteriales en la evaluación y selección de proveedores. Ingeniería Industrial, 24(2), p. 2. ',
       tipo: 'PDF',
-      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=4786742',
+      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=4786742 ',
+    },
+    {
+      tema: 'Técnicas de clasificación de proveedores',
+      referencia:
+        'Flint, P. (2004). La Negociación Empresarial. Esan ediciones.',
+      tipo: 'PDF',
+      link:
+        'https://repositorio.esan.edu.pe/bitstream/handle/20.500.12640/2942/MaterialDidactico4Negociacion.pdf?sequence=1&isAllowed=y',
     },
   ],
   glosario: [
+    {
+      termino: 'AHP',
+      significado:
+        'técnica que consiste en realizar una selección de proveedores, entre varias alternativas, de acuerdo a sus características o variables de manera jerárquica, para luego compararlas con las demás.',
+    },
+    {
+      termino: 'Calidad',
+      significado:
+        'estado, propiedades y características de los artículos, productos o materias primas ofrecidos por la empresa o los proveedores.',
+    },
     {
       termino: 'Clasificar',
       significado:
@@ -171,12 +141,17 @@ export default {
     {
       termino: 'Manufactura',
       significado:
-        'Es el resultado de convertir materias primas en un producto elaborado por medio de un proceso industrial. De ese modo, se obtienen los bienes terminados, listos para su venta en los distintos mercados. (Galán, 2018)',
+        'Es el resultado de convertir materias primas en un producto elaborado por medio de un proceso industrial. De ese modo, se obtienen los bienes terminados, listos para su venta en los distintos mercados (Galán, 2018).',
     },
     {
       termino: 'Parámetros',
       significado:
-        'Es un elemento de un sistema que permite clasificar y poder evaluar algunas de sus características, como el rendimiento, la amplitud o la condición. (Arias, 2020)',
+        'Es un elemento de un sistema que permite clasificar y poder evaluar algunas de sus características, como el rendimiento, la amplitud o la condición (Arias, 2020).',
+    },
+    {
+      termino: 'Perfil',
+      significado:
+        'características que evidentes de una empresa o proveedor, que le pueden dar un estatus administrativo y comercial y que dan cuenta del nivel de calidad de sus servicios, procesos, productos, etc.',
     },
     {
       termino: 'Proveedores',
@@ -191,7 +166,7 @@ export default {
     {
       termino: 'Suministros',
       significado:
-        'Es la dotación de un bien, el cual debe pasar por todo un proceso para ir desde el productor hasta el consumidor o beneficiario final. (Westreicher, 2020)',
+        'Es la dotación de un bien, el cual debe pasar por todo un proceso para ir desde el productor hasta el consumidor o beneficiario final (Westreicher, 2020).',
     },
     {
       termino: 'Técnicas',
@@ -201,13 +176,8 @@ export default {
   ],
   referencias: [
     {
-      referencia:
-        'Alcaraz, J. L. G., Iniesta, A. A., & Macías, A. A. M. (2013). Selección de proveedores basada en análisis dimensional. <em>Contaduría y administración, 58</em>(3), 249-278.',
-      link: '',
-    },
-    {
       referencia: 'Arias, E. R. (2020). <em>Parámetro</em>. Economipedia.',
-      link: 'https://economipedia.com/definiciones/parametro.html',
+      link: 'https://economipedia.com/definiciones/parametro.html      ',
     },
     {
       referencia: 'Galán, J. S. (2018). <em>Manufactura</em>. Economipedia.',
@@ -215,19 +185,9 @@ export default {
     },
     {
       referencia:
-        'González, A. G., & Ríos, R. G. (2003). Aplicación de las técnicas multicriteriales en la evaluación y selección de proveedores. <em>Ingeniería Industrial, 24</em>(2), 2.',
-      link: '',
-    },
-    {
-      referencia:
         'INVIMA. (2020). <em>Buenas prácticas de manufactura</em>. INVIMA. ',
       link:
         'https://www.invima.gov.co/buenas-practicas-de-manufactura-bpm-sinonimo-de-responsabilidad-e-inocuidad-en-los-alimentos#:~:text=Las%20Buenas%20Pr%C3%A1cticas%20de%20Manufactura,las%20operaciones%20mencionadas%20cumplan%20con ',
-    },
-    {
-      referencia:
-        'Restrepo Suárez, R. (2016). <em>Evaluación y clasificación de proveedores: metodología y caso de estudio en una ensambladora de motocicletas</em> (Doctoral dissertation, Universidad EAFIT).',
-      link: '',
     },
     {
       referencia: 'Westreicher, G. (2020). <em>Suministro</em>. Economipedia.',

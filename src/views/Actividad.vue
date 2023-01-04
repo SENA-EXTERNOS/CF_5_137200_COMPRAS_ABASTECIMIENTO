@@ -7,16 +7,20 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/completar.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/ad.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Completar la frase
-        p.mb-4 El siguiente cuestionario de técnicas de clasificación de inventarios tendrá como objetivo que el aprendiz se termine de apropiar de los conocimientos adquiridos en el componente formativo.
-          .row.justify-content-around.align-items-center            
+        p.mb-4 Apreciado aprendiz, bienvenido a esta actividad didáctica donde usted completará las frases o ideas propuestas, digitando correctamente, en el campo dispuesto para ello, la palabra ausente.
+          br
+          br
+          | #[b ¡Éxitos!]
+        .tarjeta.p-3(style="background-color: #f6f6f6 ")
+          .row.justify-content-around.align-items-center          
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Completar
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/index.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 

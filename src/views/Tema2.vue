@@ -6,22 +6,19 @@
       .titulo-principal__numero
         span 2
       h1 Técnicas de clasificación de proveedores
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img1.svg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p La correcta selección de proveedores, vincula tener en cuenta parámetros previamente identificados y estructurados, establecidos de acuerdo con las necesidades y la actividad comercial.
+              br
+              br
+              |Basados en esos criterios, se procede a elegir los mejores proveedores para la empresa, buscando tener procesos correctamente elaborados, dando como resultado un óptimo producto final y un buen servicio a los clientes.
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img1.svg')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p Para llevar a cabo una correcta selección de proveedores, se deben tener en cuenta los parámetros previamente identificados y estructurados, los cuales fueron establecidos de acuerdo con las necesidades y la actividad comercial.
-
-        P Basados en esos criterios, se procede a realizar la ejecución de los mismos mediante técnicas conforme a las estrategias que se quieran implementar, las cuales garantizarán una evaluación rigurosa y completa con el fin de elegir los mejores proveedores para la empresa, buscando tener procesos correctamente elaborados, dando como resultado un óptimo producto final y un buen servicio a los clientes.
-
-
-    separador
-    #t_2_1
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 2.1 Tipos
+    h3.mb-5(data-aos="fade-right") Tipos de técnicas de selección de proveedores
 
     .row.justify-content-around.align-items-center(data-aos="flip-down")
 
@@ -81,18 +78,13 @@
         
 
 
-    separador
-    #t_2_2
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 2.2 Características
-
+    h3.mb-5(data-aos="fade-right") Características de las técnicas de selección
+    p.mb-5(data-aos='fade-right') Cada técnica de selección de proveedores, se usará en concordancia con el tipo de servicio buscado en un proveedor, los tiempos que se tengan estipulados para contar con tal proveedor y algunas otras situaciones concretas del contrato entre el proveedor seleccionado y la empresa. El siguiente video detalla las particularidades de cada técnica posible para la selección de proveedores:
     .row.justify-content-center.align-items-center.mb-5.mt-5           
       .col-lg-12(data-aos="fade-left")     
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)            
-                   
     
     .row.justify-content-around.align-items-center(data-aos="flip-down")
 
@@ -101,7 +93,7 @@
           img(src='@/assets/curso/temas/tema2/img3.png', alt='Texto que describa la imagen')  
  
       .col-lg-10
-        p(data-aos="fade-down") #[b Aprendiz], ha culminado el estudio de este componente formativo. Lo invitamos a desarrollar la actividad didáctica de afianzamiento y observar los materiales complementarios de estudio, para que enriquezca su conocimiento.
+        p(data-aos="fade-down") Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 </template>
 
