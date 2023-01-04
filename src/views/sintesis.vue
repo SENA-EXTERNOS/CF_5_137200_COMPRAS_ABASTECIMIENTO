@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Estimado aprendiz, lo invitamos a ver el mapa conceptual donde encontrará una síntesis de todos los elementos desarrollados en este componente formativo, acerca de las técnicas de clasificación de proveedores.
+    p El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
 
     .row.justify-content-center
       .col-lg-10.mb-5
