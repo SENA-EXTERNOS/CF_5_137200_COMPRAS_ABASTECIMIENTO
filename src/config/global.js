@@ -106,13 +106,7 @@ export default {
       link:
         'https://reader.elsevier.com/reader/sd/pii/S0186104213712294?token=5659839EAB8C64E492761C06A575A7A25410A78D376F6979BBA2A9F8C66DE2953586B345D0E557C5115970D4735924BF&originRegion=us-east-1&originCreation=20220831162135 ',
     },
-    {
-      tema: 'Técnicas de clasificación de proveedores',
-      referencia:
-        'González, A. G., & Ríos, R. G. (2003). Aplicación de las técnicas multicriteriales en la evaluación y selección de proveedores. Ingeniería Industrial, 24(2), p. 2. ',
-      tipo: 'PDF',
-      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=4786742 ',
-    },
+
     {
       tema: 'Técnicas de clasificación de proveedores',
       referencia:
@@ -176,22 +170,10 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'Arias, E. R. (2020). <em>Parámetro</em>. Economipedia.',
-      link: 'https://economipedia.com/definiciones/parametro.html      ',
-    },
-    {
-      referencia: 'Galán, J. S. (2018). <em>Manufactura</em>. Economipedia.',
-      link: 'https://economipedia.com/definiciones/manufactura.html ',
-    },
-    {
       referencia:
         'INVIMA. (2020). <em>Buenas prácticas de manufactura</em>. INVIMA. ',
       link:
         'https://www.invima.gov.co/buenas-practicas-de-manufactura-bpm-sinonimo-de-responsabilidad-e-inocuidad-en-los-alimentos#:~:text=Las%20Buenas%20Pr%C3%A1cticas%20de%20Manufactura,las%20operaciones%20mencionadas%20cumplan%20con ',
-    },
-    {
-      referencia: 'Westreicher, G. (2020). <em>Suministro</em>. Economipedia.',
-      link: 'https://economipedia.com/definiciones/suministro.html',
     },
   ],
   creditos: {

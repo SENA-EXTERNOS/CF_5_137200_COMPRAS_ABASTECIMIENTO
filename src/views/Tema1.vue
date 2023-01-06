@@ -51,7 +51,7 @@
             p.text-center Son los valores asignados a los productos que el proveedor desea suministrar.
 
           .tarjeta.bgr-infografia-tema1.p-3(x="42%" y="73%" numero="5")
-            p.text-center Es la capacidad que tiene el proveedor para adaptarse a diferentes circunstancias que puedan llegar a presentar en el proceso.
+            p.text-center Es la capacidad que tiene el proveedor para adaptarse a diferentes circunstancias que puedan llegar a presentarse en el proceso.
 
           .tarjeta.bgr-infografia-tema1.p-3(x="30%" y="58%" numero="6")
             p.text-center Son las opiniones que tienen los demás clientes sobre sus experiencias  al realizar negocios con el proveedor con el cual se desea efectuar cierta adquisición de productos.
