@@ -149,7 +149,7 @@
 
     .row.mb-5
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--boton.color-acento-contenido.p-4
+        .tarjeta.color-acento-contenido.p-4
           .row.justify-content-center.mb-3
             .col-5
               figure
@@ -159,7 +159,7 @@
           p.text-small.text-center 1 a 5 horas para brindar una respuesta.
 
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--boton.color-acento-contenido.p-4
+        .tarjeta.color-acento-contenido.p-4
           .row.justify-content-center.mb-3
             .col-5
               figure
@@ -169,7 +169,7 @@
           p.text-small.text-center 1 a 3 días hábiles para atender la solicitud.
 
       .col-sm-6.col-lg-4.mb-4.mb-sm-0
-         .tarjeta--boton.color-acento-contenido.p-4
+         .tarjeta.color-acento-contenido.p-4
           .row.justify-content-center.mb-3
             .col-5
               figure
